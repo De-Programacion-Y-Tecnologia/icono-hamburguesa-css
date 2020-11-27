@@ -1,0 +1,17 @@
+body { padding: 2rem; }
+
+.hamburguesa::before,
+.hamburguesa::after,
+.hamburguesa {
+	display: block;
+	width: 40px;
+	border-top: solid 5px;
+}
+
+.hamburguesa::before {
+	content: '';
+	position: relative;
+	bottom: 15px;
+}
+
+.hamburguesa::after { content: ''; }
